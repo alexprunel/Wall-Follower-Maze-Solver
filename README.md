@@ -1,5 +1,5 @@
 # Wall-Follower-Maze-Solver
-A Verilog algorithm to solve and maze using right-hand hand rule.
+A Verilog algorithm to solve a maze using right-hand hand rule.
 
 Enuntul complet al problemei se afla in maze-solver.pdf.
 Algoritmul de rezolvare se afla in fisierul maze.v. Celelalte fisiere sunt parte a proiectului/temei, care implementeaza labirintul(matricea de 0 si 1), respectiv functionalitatea variabilelor declarate in modul:
