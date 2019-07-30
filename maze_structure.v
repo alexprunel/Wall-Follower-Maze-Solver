@@ -2,12 +2,12 @@
 
 module maze_structure(
     input           clk,            // synchronization signal
-	input [5:0]     starting_row,   // row index of starting position
+	  input [5:0]     starting_row,   // row index of starting position
     input [5:0]     starting_col,   // col index of starting position
     input [5:0]     row,            // row index of cell to be read/written
     input [5:0]     col,            // col index of cell to be read/written
     input           we,             // write enable: 1 - cell is written
-	input           oe,             // output enable: 1 - cell is read
+	  input           oe,             // output enable: 1 - cell is read
     output          out);           // when reading: current cell value
 
 parameter init = 1;                 // init data: 0 - don't init, 1 - init
@@ -68,4 +68,3 @@ assign starting_col = sp_col;
 
 
 endmodule
-
